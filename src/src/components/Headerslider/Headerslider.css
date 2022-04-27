@@ -1,0 +1,22 @@
+.d-block{
+    height: 650px;
+    
+}
+
+.caption h6{
+    margin-bottom: 27%;
+    font-size: 22px;
+    font-weight: 700;
+   
+}
+.caption h5{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

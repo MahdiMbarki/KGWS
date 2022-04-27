@@ -1,0 +1,59 @@
+.footer {
+    padding: 30px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    text-decoration: none;
+    background-color: #f0f2f5;
+}
+
+.footer ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+li:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.footer span{
+font-size: 20px;
+font-weight: 700;
+}
+.footer p{
+    font-size: 11px;
+    margin: 0.4rem 0 0.5rem 0;
+}
+
+.smi{
+    margin: 4px 4px 0;
+}
+
+
+
+.foootercr {
+display: block;
+text-align: center;
+background-color: #f0f2f5;
+}
+
+
+
+.foootercr img{
+    width: 70px;
+    margin-top: 20px;
+}
+.foootercr p{
+    font-size: 13px;
+    color: gray;
+}
+
+@media screen and (max-width:1000px) {
+    .footer{
+        display: block;
+        padding: 0px;
+    }
+
+}
+

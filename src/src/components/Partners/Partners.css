@@ -1,0 +1,17 @@
+.partnersc {
+    padding: 5%;
+    /*    background-color: rgb(209, 209, 209);*/
+}
+
+
+.container {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    background-color: rgb(254, 254, 254);
+}
+
+.dc {
+    display: none;
+}
