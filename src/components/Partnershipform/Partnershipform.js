@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
-//import './Partnershipform.css';
+import './Partnershipform.css';
 import { FormModal } from '../Common';
 function Partnershipform() {
     const [modalShow, setModalShow] = React.useState(false);

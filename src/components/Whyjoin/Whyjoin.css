@@ -1,3 +1,35 @@
-.vision-img{
- width: 300px;
+.whyjoincontainer{
+ padding: 5px;
+ display:flex;
+ justify-content: space-between;
+
 }
+.ImgTxtContainer{
+ border: 2px solid rgb(168, 167, 167);
+}
+.whyjoinimg{
+ height:300px;
+ width:450px;
+
+}
+.nav-pills .nav-link{
+margin-bottom: 25px;
+color:black;
+font-weight: 600;
+cursor: pointer;
+margin-left:5px;
+margin-right:5px;
+
+}
+
+.nav-pills{
+ background-color: rgba(123, 124, 124, 0.3);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+ background-color: rgba(123, 124, 124, 0.8);}
+ .BsectionContainer{
+  background-image: linear-gradient(180deg, rgb(230, 230, 230), rgb(236, 236, 236));
+  padding-top: 10%;
+  padding-bottom: 10%;
+ }

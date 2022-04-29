@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, BackToTopButton, Partenariat, Navigationbar, Partners, OffcanvasNavbar, Footer } from './components/Common'
 
 
+
 function App() {
     return (
         <div className="App">
@@ -11,15 +12,15 @@ function App() {
                 <Navigationbar />
                 <OffcanvasNavbar />
                 <Routes >
+          
+                      <Route exact path='/' element={<Home />} />
 
-                    <Route exact path='/' element={<Home />} />
-
-                    <Route path='/Partenariat' element={<Partenariat />} />
-
+                      <Route path='/Partenariat' element={<Partenariat />} />
+    
                 </Routes>
                 <Partners />
                 <Footer />
-                <BackToTopButton />
+                <BackToTopButton/>
             </Router>
         </div>
     );

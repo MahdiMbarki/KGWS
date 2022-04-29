@@ -17,7 +17,8 @@ function Partners() {
                     autoplayHoverPause='true'
                     animationout='true'
                     animateIn='true'
-                    slideBy={2}
+                    slideBy={1}
+
                 >
                     <img alt='' className='item' src={require('../../images/clients-logo/client1.png')} />
                     <img alt='' className='item' src={require('../../images/clients-logo/client2.jpg')} />

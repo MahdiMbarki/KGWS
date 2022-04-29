@@ -22,12 +22,12 @@ function About() {
                                 <Solutionscard icon={React.createElement(AiOutlineThunderbolt, { size: '4em' })} title="BRANCHE ÉNERGIE" text="Avec notre comparateur, découvrez les différentes offres d'énergie des fournisseurs d'électricité et de gaz en 2021" />
                             </Col>
                             <Col>
-                                <Solutionscard icon={React.createElement(FiPhoneCall, { size: '4em' })} title="BRANCHE TÉLÉCOM" text="Notre comparateur référence l'ensemble des offres internet fixe et des forfaits mobiles disponibles en France métropolitaine pour les particuliers " />
+                                <Solutionscard icon={React.createElement(FiPhoneCall, { size: '4em' })} title="BRANCHE TÉLÉCOM" text="Notre comparateur référence l'ensemble des offres internet fixe et des forfaits mobiles disponibles en France métropolitaine pour les particuliers " /> 
                             </Col>
                             <Col>
                                 <Solutionscard icon={React.createElement(MdOutlineMedicalServices, { size: '4em' })} title="BRANCHE ASSURANCE& SANTE" text="Prise en charge de vos frais santé : soins courants, optique, dentaire, hospitalisation. Ne cherchez plus ! Choisissez la couverture santé qui vous ressemble parmi une large gamme." />
                             </Col>
-
+                            
                         </Row>
                     </Container>
                 </Tab>

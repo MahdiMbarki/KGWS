@@ -55,11 +55,26 @@ justify-content: center;
         font-size: 15px;
         font-weight: 500;
         border: 3px solid white;
+        cursor: pointer;
+    overflow: hidden;
+	-moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .about:hover {
+            -webkit-transform: translate(0, -6px);
+            -moz-transform: translate(0, -6px);
+            -ms-transform: translate(0, -6px);
+            -o-transform: translate(0, -6px);
+            transform: translate(0, -6px);
+            box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
         }
 
         .about-image img{
             width: 710px; 
-            height: 480px; 
+            height: 480px;
+             
         }
         
         

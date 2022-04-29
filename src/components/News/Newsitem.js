@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 function News(props) {
     return (
         <div className='Newsitem'>
-            <Card>
+            <Card className='test'>
                 <div >
                 <img src={props.icon} alt="" />
                 </div>
@@ -11,7 +11,7 @@ function News(props) {
                     <Card.Title style={{ color: 'black' }}>
                         {props.title}
                     </Card.Title>
-                    <Card.Text>
+                    <Card.Text >
                         {props.text}
                     </Card.Text>
                     <Button variant="primary">{props.button}</Button>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Container, NavDropdown, Nav, Offcanvas } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap';
-//import './Navbar.css';
+import './Navbar.css';
 const OffcanvasNavbar = () => {
     return (
         <div className='P-navbar'>
@@ -33,12 +33,12 @@ const OffcanvasNavbar = () => {
                                 <LinkContainer to='/Partenariat'>
                                     <Nav.Link  >Partenariat</Nav.Link>
                                 </LinkContainer>
-                                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="/#About">About</NavDropdown.Item>
+                                <NavDropdown title="Navigation" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1">A Propos</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="/#Services">Services</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2">Service</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="/#Contact">Contact</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Contact</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Offcanvas.Body>

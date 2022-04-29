@@ -18,11 +18,12 @@ import News from './News/News';
 import Newsitem from './News/Newsitem';
 import Whyjoin from "./Whyjoin/Whyjoin";
 import Services from './Services/Services';
-import BackToTopButton from "./BacktoTopButton/BacktoTopButton";
-import FormModal from "./Modal/Modal";
+import BackToTopButton from './BacktoTopButton/BacktoTopButton';
+import FormModal from'./Modal/FormModal.js';
+
 export {
-    BackToTopButton,
     FormModal,
+    BackToTopButton,
     Services,
     Whyjoin,
     Newsitem,

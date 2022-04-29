@@ -1,14 +1,59 @@
 .forms{
     padding: 50px 12px ;
+    height: 700px;
+    background-image:url(../../images/background/email.png)   ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 
 
 @media screen and (min-width:1300px) {
 
 .forms{
+    
     padding: 50px 390px ;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(../../images/background/contactbg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.form-control{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 }
-
-
+.BtnContainer{
+    text-align: center;
+}
+.ContactBtn { 
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(180, 180, 180)  ;
+    font-weight: bold;
+    background: none;
+    border-radius: 30px;
+    Margin: 30px;
+    padding: 10px 25px;
+}
+.ContactBtn:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+.form-label{
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}

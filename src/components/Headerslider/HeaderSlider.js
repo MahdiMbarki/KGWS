@@ -5,7 +5,7 @@ import './Headerslider.css';
 function HeaderSlider() {
     return (
         <div className='Carousel'>
-            <Carousel interval={2500}>
+            <Carousel fade>
 
                 <Carousel.Item >
                     <img
@@ -16,7 +16,7 @@ function HeaderSlider() {
                     <Carousel.Caption>
                         <div className='caption'>
                             <h5>Plus Loin Ensemble</h5>
-                            <h6>LE FUTUR ET TOUTES LES RAISONS D Y CROIRE</h6>
+                            <h6>Le futur et toutes les raisons d y croire</h6>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -42,7 +42,7 @@ function HeaderSlider() {
                     <Carousel.Caption >
                         <div className='caption'>
                             <h5 >Des Solutions D'expert Pour Vous</h5>
-                            <h6>KOMPAR EST UNE SOLUTION POUR DE NOMBREUX AVANTAGES</h6>
+                            <h6>kompar est une solution pour de nombreux avantages</h6>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

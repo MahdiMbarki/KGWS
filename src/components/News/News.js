@@ -6,7 +6,7 @@ import './News.css';
 
 function News() {
     return (
-        <div>
+        <div id='News'>
              <div  className='title-news' >
             <h2 className='heaader'>DERNIÈRES ACTUALITÉS</h2>
            

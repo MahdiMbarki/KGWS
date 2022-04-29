@@ -31,8 +31,49 @@
     background-color: gainsboro;
     box-shadow: 10px 5px 5px rgba(189, 189, 189, 0.3);
 }
-.navbar-light .navbar-nav .nav-link {
-    font-size: 16px;
+ .navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    font-weight: 400;
     letter-spacing: 1.3px;
 }
 
+
+
+
+
+.menu{
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .menu:after {
+    content: ".";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+ .menu:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.dropdown-item{
+    font-size: 16px;
+    padding: 10px;
+    color: #0000008C;
+}
+
+.dropdown-menu.show{
+width: 200px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+  
