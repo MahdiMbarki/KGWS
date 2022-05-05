@@ -5,7 +5,7 @@ function News(props) {
         <div className='Newsitem'>
             <Card className='test'>
                 <div >
-                <img src={props.icon} alt="" />
+                    <img src={props.icon} alt="" />
                 </div>
                 <Card.Body>
                     <Card.Title style={{ color: 'black' }}>
@@ -14,11 +14,11 @@ function News(props) {
                     <Card.Text >
                         {props.text}
                     </Card.Text>
-                    <Button variant="primary">{props.button}</Button>
+                    <Button href={props.path} variant="primary">{props.button}</Button>
                 </Card.Body>
             </Card>
             <div>
-            
+
             </div>
 
         </div>

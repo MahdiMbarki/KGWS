@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
 import './Contact.css';
 import {FormModal} from '../Common';
 
@@ -47,9 +46,9 @@ const Mailer = () => {
     }
     return (
         <div className='forms'  id='Contact' >
-             <div>
-                <h2 >Contact</h2>
-            </div>
+           <div class="nine">
+  <h1>Contactez-nous<span>Tagline Keywords</span></h1>
+</div>
          <Form onSubmit={sendmail}>
 
          <Row className="mb-3">

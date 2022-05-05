@@ -1,35 +1,83 @@
 .whyjoincontainer{
- padding: 5px;
- display:flex;
- justify-content: space-between;
-
+ display: flex;
+ justify-content: center;
 }
 .ImgTxtContainer{
- border: 2px solid rgb(168, 167, 167);
-}
-.whyjoinimg{
- height:300px;
- width:450px;
+   background-color: #f8f8f8;
 
 }
+
+.whyjoinText{
+ font-size: 16px;
+ text-align: center;
+ color: #2F2F2F;
+ padding: 10px 50px;
+}
+.whyjoinimg{
+ height:160px;
+ width: 280px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ margin-bottom: 30px;
+margin-top: 20px;
+}
+
 .nav-pills .nav-link{
-margin-bottom: 25px;
-color:black;
-font-weight: 600;
+margin-bottom: 22px;
+color:  #5977a5;
 cursor: pointer;
 margin-left:5px;
 margin-right:5px;
+font-size: 20px;
+font-weight: 600;
 
 }
+
+
+
+
+
+
 
 .nav-pills{
- background-color: rgba(123, 124, 124, 0.3);
+   color:  #5977a5;   background-color: #f8f8f8;
+
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
- background-color: rgba(123, 124, 124, 0.8);}
+span:active{
+   background-color: red;
+}
+
+.menuIconactive {
+background-color: white;
+}
+ 
+
+ h1{
+  margin-left: 20px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+ .menuIcon{
+
+   color: white;
+    background-color: #0084FF;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    text-align: center;
+    font-size: 22px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 20px;
+}
+
+ /*@media screen and (MAX-width:1000px){
  .BsectionContainer{
-  background-image: linear-gradient(180deg, rgb(230, 230, 230), rgb(236, 236, 236));
-  padding-top: 10%;
-  padding-bottom: 10%;
+  display: block;
  }
+
+ } */

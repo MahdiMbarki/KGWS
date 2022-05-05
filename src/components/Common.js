@@ -19,9 +19,11 @@ import Newsitem from './News/Newsitem';
 import Whyjoin from "./Whyjoin/Whyjoin";
 import Services from './Services/Services';
 import BackToTopButton from './BacktoTopButton/BacktoTopButton';
-import FormModal from'./Modal/FormModal.js';
-
+import FormModal from './Modal/FormModal.js';
+import { data } from '../data/data.js';
+import Newspage from "./News/Newspage";
 export {
+    data,
     FormModal,
     BackToTopButton,
     Services,
@@ -43,5 +45,6 @@ export {
     Navigationbar,
     OffcanvasNavbar,
     Footer,
-    Partners
+    Partners,
+    Newspage
 }

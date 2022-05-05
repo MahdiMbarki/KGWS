@@ -1,10 +1,9 @@
 .forms{
     padding: 50px 12px ;
     height: 700px;
-    background-image:url(../../images/background/email.png)   ;
+    background-image:url(../../images/background/contactbg.jpg)  ;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 
 }
 
@@ -29,7 +28,7 @@
 }
 .form-control{
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.9);
 
 }
 

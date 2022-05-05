@@ -1,28 +1,35 @@
 .footer {
-    padding: 20px 100px 0px 100px;
+    padding: 30px 100px 80px 100px;
     display: flex;
     justify-content: space-between;
     bottom: 0;
     text-decoration: none;
-    background-color: #f0f2f5;
+    background-color: #ffffff;
+background-image: linear-gradient(#013253 80%, #ececeb00);
     position: relative;
     left: 0;
     bottom: 0;
 }
 
+
+
 .footer ul{
+    color: gray;
     list-style-type: none;
     line-height: 30px;
 }
 
+
+
 li:hover{
-    color: gray;
+    color: white;
     cursor: pointer;
 }
 
-.footer span{
+.footer h6{
+margin-bottom:  20px;
 font-size: 20px;
-font-weight: 700;
+color: white;
 }
 .footer p{
     font-size: 11px;
@@ -38,18 +45,17 @@ font-weight: 700;
 .foootercr {
 display: block;
 text-align: center;
-background-color: #f0f2f5;
+background-color: #013253 ;
 margin-bottom: -30px;
 }
 
 
 
 .foootercr img{
-    width: 70px;
-    margin-top: 20px;
+    width: 50px;
 }
 .foootercr p{
-    font-size: 13px;
+    font-size: 11px;
     color: gray;
 }
 

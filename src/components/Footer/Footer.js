@@ -34,7 +34,7 @@ function Footer() {
             <section className="footer">
                 <section className="footer-info">
                     <ul>
-                        <li><span> kompar</span></li>
+                    <h6> kompar</h6>
                         <li>Qui sommes nous
                         </li>
                         <li>Mentions légales</li>
@@ -45,7 +45,7 @@ function Footer() {
                 </section>
                 <section className="footer-info">
                     <ul>
-                        <li><span> Produit</span></li>
+                        <h6>Produit</h6>
                         <li>Energie
                         </li>
                         <li>Mutuelle et Santé</li>
@@ -58,7 +58,7 @@ function Footer() {
 
                 <section className="footer-info">
                     <ul>
-                        <li><span> Liens</span></li>
+                       <h6> Lien </h6>
                         <li>Acceuil
                         </li>
                         <li>partenariat</li>
@@ -70,9 +70,7 @@ function Footer() {
                 </section>
                 <section className="footer-info">
                     <ul>
-                        <li>
-                            <span> Inscription à notre newsletter</span>
-                        </li>
+                    <h6> Inscription à notre newsletter</h6>
                         <li>
                             <p>Recevez les dernières nouvelles sur le marché d'energie en france</p>
                         </li>
@@ -89,13 +87,14 @@ function Footer() {
                     </ul>
 
                 </section>
-            </section>
-            <section className="foootercr">
+                <section className="foootercr">
                 <div>
                     <img alt="" src={require('../../images/Logo.png')} />
                 </div>
                 <p> © Copyright 2021 - KOMPAR GROUP. All rights reserved.</p>
             </section>
+            </section>
+           
             <FormModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
