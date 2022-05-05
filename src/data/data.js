@@ -128,7 +128,7 @@ export const data = {
     ],
     "news": [
         {
-            "path": "/a",
+            "path": "/news/a",
             "image": require('../images/news/n1.jpg'),
             "title": 'DÉMÉNAGEMENT-CONTRAT D`ÉLECTRICITÉ',
             "subtitle": "Changer de logement est l`occasion rêvée de remettre en question ses contrats d`énergie et de choisir un fournisseur moins cher. les particuliers peuvent choisir leur fournisseur librement, et résilier à tout moment. Mais, quel est le fournisseur le moins cher ? Et surtout : comment trouver le meilleur fournisseur d`énergie lorsque l`on déménage ?",
@@ -137,7 +137,7 @@ export const data = {
 
         },
         {
-            "path": "/b",
+            "path": "/news/b",
             "image": require('../images/news/n2.jpg'),
             "title": 'L`ÉLECTRICITÉ À PRIX COUTANT',
             "subtitle": "En 2023, tous les fournisseurs de plus de 200 000 clients devront proposer une offre d`électricité à prix de marché. Son autre nom ? Le « tarif dynamique ». C`est un prix qui varie chaque heure, chaque jour. Il est déterminé par l`offre et la demande . Voici pourquoi, comme l`Europe, nous croyons dur comme fer en cette tarification d`avenir.",
@@ -146,7 +146,7 @@ export const data = {
 
         },
         {
-            "path": "/c",
+            "path": "/news/c",
             "image": require('../images/news/n3.jpg'),
             "title": 'COMPARATEUR DE PRIX AVANTAGES',
             "subtitle": "simple et rapide , Notre comparateur de prix ne présente que des avantages dans tous les secteurs d`activité : commerce , industrie, artisanat, agriculture, professions libérales réglementées…. Il permet de réaliser d`importantes économies tout en étant beaucoup plus précis qu`un moteur de recherche classique.",
