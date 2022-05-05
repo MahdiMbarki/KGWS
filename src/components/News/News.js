@@ -9,7 +9,7 @@ function News() {
         <div id='News'>
 
             <div class="nine">
-                <h1>Style Nine<span>Tagline Keywords</span></h1>
+                <h1>Les Nouvelles<span> Rejoigner Nous Et Tous Découvrir</span></h1>
             </div>
             <div className='News'>
                 {data ? data.news.map((d, i) => (

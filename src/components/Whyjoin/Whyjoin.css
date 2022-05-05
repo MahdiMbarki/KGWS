@@ -1,83 +1,94 @@
-.whyjoincontainer{
- display: flex;
- justify-content: center;
+.whyjoincontainer {
+   display: flex;
+   justify-content: center;
 }
-.ImgTxtContainer{
+
+.ImgTxtContainer {
    background-color: #f8f8f8;
 
 }
 
-.whyjoinText{
- font-size: 16px;
- text-align: center;
- color: #2F2F2F;
- padding: 10px 50px;
-}
-.whyjoinimg{
- height:160px;
- width: 280px;
- margin-left: auto;
- margin-right: auto;
- display: block;
- margin-bottom: 30px;
-margin-top: 20px;
+.whyjoinText {
+   font-size: 16px;
+   text-align: center;
+   color: #2F2F2F;
+   padding: 10px 50px;
 }
 
-.nav-pills .nav-link{
-margin-bottom: 22px;
-color:  #5977a5;
-cursor: pointer;
-margin-left:5px;
-margin-right:5px;
-font-size: 20px;
-font-weight: 600;
-
+.whyjoinimg {
+   height: 160px;
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-bottom: 30px;
+   margin-top: 20px;
 }
 
-
-
-
-
-
-
-.nav-pills{
-   color:  #5977a5;   background-color: #f8f8f8;
+.nav-pills .nav-link {
+   margin-bottom: 22px;
+   color: #5977a5;
+   cursor: pointer;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 20px;
+   font-weight: 600;
 
 }
 
-span:active{
-   background-color: red;
+
+
+
+
+
+
+.nav-pills {
+   color: #5977a5;
+   background-color: #f8f8f8;
+
 }
+
+
 
 .menuIconactive {
-background-color: white;
-}
- 
-
- h1{
-  margin-left: 20px;
-  font-size: 30px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+   background-color: white;
 }
 
- .menuIcon{
+
+h1 {
+   margin-left: 20px;
+   font-size: 30px;
+   margin-bottom: 50px;
+   margin-top: 30px;
+}
+
+.menuIcon {
 
    color: white;
-    background-color: #0084FF;
-    width: 40px;
-    height: 40px;
-    border-radius:50%;
-    text-align: center;
-    font-size: 22px;
+   background-color: #0084ff;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 22px;
    display: inline-block;
    vertical-align: middle;
    margin-right: 20px;
 }
 
- /*@media screen and (MAX-width:1000px){
+/*@media screen and (MAX-width:1000px){
  .BsectionContainer{
   display: block;
  }
 
- } */
+ }.menuIcon:hover {
+   background: white;
+}
+ .nav-pills .nav-link.active,
+.menuIcon .show>.menuIcon {
+   */
+
+.nav-pills .nav-link.active>.menuIcon {
+   background: #174d80;
+   color: rgb(255, 255, 255);
+}
