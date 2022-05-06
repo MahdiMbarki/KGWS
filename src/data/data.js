@@ -195,5 +195,25 @@ export const data = {
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
             "button": "Optimiser Ma Consommation"
         }
-    ]
+    ],
+    "page2": {
+        "slider2": [
+            require('../images/komparslider/1.jpg'),
+            require('../images/komparslider/2.jpg'),
+            require('../images/komparslider/3.jpg')
+        ],
+        "kompar": {
+            "title": "KOMPAR-GROUPE",
+            "text": "Le Groupe KOMPAR est expert dans l’accompagnement des particuliers et des entreprisespour la réduction des factures d’énergies, de télécommunication,et l’optimisation des frais généraux. Partenaire des plus grands fournisseurs français, KOMPAR se positionne comme le tiers de confiance privilégié de ses clients et leur apporte la solution la plus adaptée à leurs besoins. Présent sur toute la France et à l’étranger, nos équipes sont à l’écoute de nos clients professionnels. Nous offrons à nos clients, un accompagnement Personnalisé, un partenariat gagnant/gagnant, une transparence totale.",
+            "details": [
+                ["Category", "Business"],
+                ["TAGS", "Comparateur centre d'appel, conperatif"],
+                ["DATE OF RELEASE", "January 22, 2015"]
+            ]
+
+
+        }
+
+
+    }
 }

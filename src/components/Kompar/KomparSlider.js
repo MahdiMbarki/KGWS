@@ -2,6 +2,7 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { data } from '../Common'
 //import './Kompar.css';
 function KomparSlider() {
     return (
@@ -16,9 +17,9 @@ function KomparSlider() {
                 animateIn='true'
                 slideBy={1}
             >
-                <img src={require('../../images/komparslider/1.jpg')} alt='' />
-                <img src={require('../../images/komparslider/2.jpg')} alt='' />
-                <img src={require('../../images/komparslider/3.jpg')} alt='' />
+                {data ? data.page2.slider2.map((d, i) => (
+                    <img key={`${d}-${i}`} src={d} alt="sliderimage" />
+                )) : 'loading...'}
             </OwlCarousel>
 
 

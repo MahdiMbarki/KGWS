@@ -48,6 +48,9 @@ function Partnershipform() {
     return (
 
         <div >
+            <div class="nine">
+                <h1>Contactez-nous<span>Contactez-Nous</span></h1>
+            </div>
 
             <form className='form'  >
                 <label>Nom</label>
