@@ -4,8 +4,8 @@
     justify-content: space-between;
     bottom: 0;
     text-decoration: none;
-    background-color: #ffffff;
-background-image: linear-gradient(#013253 80%, #ececeb00);
+    background: white;
+    margin-top: 200px;
     position: relative;
     left: 0;
     bottom: 0;
@@ -13,71 +13,91 @@ background-image: linear-gradient(#013253 80%, #ececeb00);
 
 
 
-.footer ul{
-    color: gray;
+.footer ul {
+    color: rgb(128, 128, 128);
     list-style-type: none;
     line-height: 30px;
 }
 
 
 
-li:hover{
-    color: white;
+li:hover {
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    font-weight: 500;
 }
 
-.footer h6{
-margin-bottom:  20px;
-font-size: 20px;
-color: white;
+.footer h6 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
 }
-.footer p{
+
+.footer p {
     font-size: 11px;
     margin: 0.4rem 0 0.5rem 0;
 }
 
-.smi{
+.smi {
     margin: 4px 4px 0;
 }
 
 
 
 .foootercr {
-display: block;
-text-align: center;
-background-color: #013253 ;
-margin-bottom: -30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
 
-.foootercr img{
+.foootercr img {
     width: 50px;
 }
-.foootercr p{
+
+.foootercr p {
     font-size: 11px;
     color: gray;
 }
 
 @media screen and (max-width:1000px) {
-    .footer{
+    .footer {
         display: block;
         padding: 0px;
     }
 
-} 
-.nlb{
+}
+
+.nlb {
     background-color: rgba(240, 248, 255, 0);
     border-radius: 5px;
     margin-left: 10px;
 }
-.nlb:hover{
+
+.nlb:hover {
     background-color: rgb(255, 255, 255);
 }
 
 .nli {
     background-color: #f0f2f500;
 }
-.nli:focus{
-    background : white;
+
+.nli:focus {
+    background: white;
+}
+
+#logofooter:hover {
+    cursor: pointer;
+}
+
+li>a {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+li>a:hover {
+    font-weight: 500;
+    color: black;
+
 }

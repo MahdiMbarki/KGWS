@@ -4,9 +4,9 @@ function News(props) {
     return (
         <div className='Newsitem'>
             <Card className='test'>
-                <div >
-                    <img src={props.icon} alt="" />
-                </div>
+
+                <Card.Img src={props.icon} alt="" />
+
                 <Card.Body>
                     <Card.Title style={{ color: 'black' }}>
                         {props.title}
@@ -14,7 +14,7 @@ function News(props) {
                     <Card.Text >
                         {props.text}
                     </Card.Text>
-                    <Button href={props.path} variant="primary">{props.button}</Button>
+                    <Button className="newsbutton" href={props.path} variant="primary">{props.button}</Button>
                 </Card.Body>
             </Card>
             <div>

@@ -4,13 +4,15 @@
     right: 50px;
     height: 50px;
     width: 50px;
-    border-radius: 15px;
-    background:#0084FF;
-    color:white;
+    border-radius: 50px;
+    background: rgba(160, 160, 161, 0.6);
+    color: white;
 }
 
 .ScrollDiv :hover {
     cursor: pointer;
-   width: 48px;
+    width: 48px;
+    background-color: rgba(160, 160, 161, 1);
+    ;
 
 }

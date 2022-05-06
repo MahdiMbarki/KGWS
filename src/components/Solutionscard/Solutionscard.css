@@ -1,7 +1,10 @@
-.cardcontainer{
-   margin: 10px;
+.cardcontainer {
+    margin: 10px;
+
+
 }
-.card-solution{
+
+.card-solution {
     border: none;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -10,34 +13,33 @@
     width: 300px;
     height: 250px;
     font-size: 9px;
-   
+
     color: #5977a5;
     cursor: pointer;
     overflow: hidden;
-	-moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-	-o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .card-solution:hover {
-	-webkit-transform: translate(0, -6px);
-	-moz-transform: translate(0, -6px);
-	-ms-transform: translate(0, -6px);
-	-o-transform: translate(0, -6px);
-	transform: translate(0, -6px);
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0, -6px);
+    -moz-transform: translate(0, -6px);
+    -ms-transform: translate(0, -6px);
+    -o-transform: translate(0, -6px);
+    transform: translate(0, -6px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     color: #0084FF;
 }
-.cardtext{
-font-size: 14px;
-text-align: center;
-color: black;
+
+.cardtext {
+    font-size: 14px;
+    text-align: center;
+    color: black;
 }
 
 @media screen and (max-width:1300px) {
-    .card{
+    .card {
         padding: 10px;
     }
 }
-
-

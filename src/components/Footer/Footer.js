@@ -34,23 +34,21 @@ function Footer() {
             <section className="footer">
                 <section className="footer-info">
                     <ul>
-                    <h6> kompar</h6>
-                        <li>Qui sommes nous
-                        </li>
-                        <li>Mentions légales</li>
-                        <li>Terms and Condition</li>
-                        <li>Actualités et article</li>
+                        <h6> kompar</h6>
+                        <li><a href="/#About" >Qui sommes nous</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="">Terms and Condition</a></li>
+                        <li><a href='/#News'>Actualités et article</a></li>
 
                     </ul>
                 </section>
                 <section className="footer-info">
                     <ul>
                         <h6>Produit</h6>
-                        <li>Energie
-                        </li>
-                        <li>Mutuelle et Santé</li>
-                        <li>Internet et Mobile</li>
-                        <li>ASSURANCE Habitation</li>
+                        <li><a href="/#whyjoin">Energie</a></li>
+                        <li><a href="/#whyjoin">Mutuelle et Santé </a></li>
+                        <li><a href="/#whyjoin">Internet et Mobile</a></li>
+                        <li><a href="/#whyjoin">ASSURANCE Habitation</a></li>
 
                     </ul>
 
@@ -58,19 +56,22 @@ function Footer() {
 
                 <section className="footer-info">
                     <ul>
-                       <h6> Lien </h6>
-                        <li>Acceuil
-                        </li>
-                        <li>partenariat</li>
-                        <li>Service</li>
-                        <li> Contact</li>
+                        <h6> Lien </h6>
+                        <LinkContainer to='/'>
+                            <li>Acceuil</li>
+                        </LinkContainer>
+                        <LinkContainer to='/Partenariat'>
+                            <li>partenariat</li>
+                        </LinkContainer>
+                        <li > <a href="/#Services">Service </a></li>
+                        <li ><a href="/#Contact"> Contact</a></li>
 
                     </ul>
 
                 </section>
                 <section className="footer-info">
                     <ul>
-                    <h6> Inscription à notre newsletter</h6>
+                        <h6> Inscription à notre newsletter</h6>
                         <li>
                             <p>Recevez les dernières nouvelles sur le marché d'energie en france</p>
                         </li>
@@ -87,14 +88,19 @@ function Footer() {
                     </ul>
 
                 </section>
+
+            </section>
+            <div>
                 <section className="foootercr">
-                <div>
-                    <img alt="" src={require('../../images/Logo.png')} />
-                </div>
-                <p> © Copyright 2021 - KOMPAR GROUP. All rights reserved.</p>
-            </section>
-            </section>
-           
+                    <div>
+                        <LinkContainer to="/">
+                            <img alt="" src={require('../../images/Logo.png')} id="logofooter" />
+                        </LinkContainer>
+                    </div>
+                    <p> © Copyright 2021 - KOMPAR GROUP. All rights reserved.</p>
+                </section>
+            </div>
+
             <FormModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

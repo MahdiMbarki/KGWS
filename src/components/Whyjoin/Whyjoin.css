@@ -1,6 +1,10 @@
 .whyjoincontainer {
    display: flex;
    justify-content: center;
+   margin-left: 10%;
+   margin-right: 10%;
+
+
 }
 
 .ImgTxtContainer {
@@ -29,23 +33,22 @@
    margin-bottom: 22px;
    color: #5977a5;
    cursor: pointer;
-   margin-left: 5px;
-   margin-right: 5px;
+   margin-left: 20px;
+   margin-right: 40px;
    font-size: 20px;
    font-weight: 600;
 
 }
 
-
-
-
-
-
+.nav-pills .nav-link:hover {
+   background-color: #0084ff4f;
+   ;
+}
 
 .nav-pills {
    color: #5977a5;
    background-color: #f8f8f8;
-
+   height: 100%
 }
 
 
@@ -55,11 +58,12 @@
 }
 
 
-h1 {
+h1:not(.navTitle) {
    margin-left: 20px;
    font-size: 30px;
    margin-bottom: 50px;
-   margin-top: 30px;
+   margin-top: 200px;
+
 }
 
 .menuIcon {

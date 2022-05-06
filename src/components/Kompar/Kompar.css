@@ -1,6 +1,6 @@
 .komparcontainer {
     padding: 5%;
-    background-image: linear-gradient(180deg, rgb(234, 229, 229), rgb(243, 232, 212));
+    background-image: white;
     margin: 5%;
     border-radius: 10px;
 }
@@ -10,9 +10,26 @@
 }
 
 .komparinfocontainer {
-    background-color: rgb(243, 232, 212);
+    background-color: white;
     padding: 5%;
     border-radius: 50px;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.komparinfocontainer>ul>li :not(label) {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 500;
+}
+
+.komparinfocontainer>ul>li :hover {
+    color: rgba(0, 0, 0, 1);
+
 }
 
 .kompardetails {

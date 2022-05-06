@@ -31,7 +31,8 @@
     background-color: gainsboro;
     box-shadow: 10px 5px 5px rgba(189, 189, 189, 0.3);
 }
- .navbar-light .navbar-nav .nav-link {
+
+.navbar-light .navbar-nav .nav-link {
     font-size: 15px;
     font-weight: 550;
 }
@@ -40,13 +41,13 @@
 
 
 
-.menu{
+.menu {
     display: inline-block;
     position: relative;
-    
-  }
-  
-  .menu:after {
+
+}
+
+.menu:after {
     content: ".";
     position: absolute;
     width: 100%;
@@ -57,12 +58,13 @@
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
-  }
-  
- .menu:hover:after {
+}
+
+.menu:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
-
-  
+#logonav:hover {
+    cursor: pointer;
+}

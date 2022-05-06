@@ -1,14 +1,15 @@
-//import './Kompar.css';
+import './Kompar.css';
 import { KomparSlider } from '../Common';
 function Kompar() {
     return (
         <div className="komparcontainer">
             <KomparSlider />
             <div className="komparinfocontainer">
+                <h2 className='komparheader'>KOMPAR-GROUPE</h2>
+                <hr />
                 <ul >
                     <li>
-                        <h2 className='komparheader'>KOMPAR-GROUPE</h2>
-                        <hr />
+
                     </li>
                     <li>
                         <p className='kompardesc'>

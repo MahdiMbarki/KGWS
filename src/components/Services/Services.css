@@ -1,7 +1,19 @@
-h2{
+h2 {
     text-align: center;
     margin: 50PX;
 }
-#Services{
+
+#Services {
     background-color: #f8f8f8;
+
+}
+
+.servicescards {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: stretch;
+    gap: 30px 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }

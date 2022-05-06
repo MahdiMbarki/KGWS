@@ -4,20 +4,32 @@ import { RiTeamLine } from 'react-icons/ri';
 import { AiOutlineBarChart } from 'react-icons/ai';
 import { FiTarget } from 'react-icons/fi';
 import { FaRegHandshake } from 'react-icons/fa';
-import { Solutionscard } from '../Common';
+import { Solutionscard, data } from '../Common';
 import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
 import './Services.css';
+
 function Services() {
+    let arr = [];
+    for (let j = 0; j < data.services.length; j++) {
+        arr.push(data.services[j].icon);
+        console.log(arr);
+    }
+
     return (
         <div id='Services'>
 
-            <Container>
-                <div class="nine">
-                    <h1>Nos services<span> Développez des relations plus solides avec vos clients</span></h1>
-                </div>
-                <Row>
-                    <Col>
+            <div class="nine">
+                <h1>Nos services<span> Développez des relations plus solides avec vos clients</span></h1>
+            </div>
+            <div className='servicescards'>
+                {data ? data.services.map((d, i) => (
+                    <div key={`${d}-${i}`} >
+                        <Solutionscard icon={d.icon} title={d.title} text={d.text} />
+                    </div>
+                )) : 'loading..'}
+
+                {            /* <Col>
                         <Solutionscard icon={React.createElement(BsMegaphone, { size: '4em' })} title="ACQUISITION - TÉLÉVENTE" text="Télévente, cross selling, up selling, réactivation de contrats, renouvellement..." />
                     </Col>
                     <Col>
@@ -37,9 +49,10 @@ function Services() {
                     </Col>
                     <Col>
                         <Solutionscard icon={React.createElement(FaRegHandshake, { size: '4em' })} title="FIDÉLISATION -RÉTENTION" text="Scoring client, cellule de rétention, optimisation des scripts et technique de rétention, campagnes anti-churn" />
-                    </Col>
-                </Row>
-            </Container>
+                    </Col> */}
+
+
+            </div>
         </div>
     );
 }

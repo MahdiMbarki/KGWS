@@ -21,6 +21,7 @@ const Navigationbar = (props) => {
                             width="80"
                             height="60"
                             className="d-inline-block align-top"
+                            id="logonav"
                         />
 
                     </LinkContainer>
@@ -32,7 +33,10 @@ const Navigationbar = (props) => {
                                     <Nav.Link className='menu' href={d.href} key={`${d}-${i}`}>{d.pagename}  </Nav.Link>
                                 ))
                                 : "loading"}
-                            <Nav.Link className='menu'  >Partenariat</Nav.Link>
+                            <LinkContainer to="/Partenariat">
+                                <Nav.Link className='menu'  >Partenariat</Nav.Link>
+                            </LinkContainer>
+
 
                         </Nav>
                     </Navbar.Collapse>

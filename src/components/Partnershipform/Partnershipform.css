@@ -1,5 +1,5 @@
 .form {
-    background-image: linear-gradient(180deg, rgb(234, 229, 229), rgb(243, 232, 212));
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,7 @@
     padding: 10%;
     margin: 5%;
     border-radius: 10px;
+
 }
 
 .pheaderslidercontainer {
@@ -19,10 +20,16 @@
 }
 
 .form input:not(.fcb) {
+    background: none;
     align-self: center;
     width: 70%;
     height: 50px;
     margin: 10px;
+}
+
+.form input:not(.fcb) :focus {
+    background: white;
+    border-radius: 30px;
 }
 
 .form select {
@@ -44,6 +51,7 @@
     align-self: left;
     margin-right: 40px;
     height: 40px;
+    width: 40px;
 }
 
 .fbutton {

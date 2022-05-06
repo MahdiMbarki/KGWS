@@ -1,15 +1,20 @@
 import Card from 'react-bootstrap/Card';
 import './Solutionscard.css';
-
+import React from 'react';
 
 function Solutionscard(props) {
+
 
     return (
 
         <div className='cardcontainer' >
             <Card className='card-solution'>
                 <div className='cardicontainer' >
+
+
                     {props.icon}
+
+
 
                 </div>
                 <Card.Body className='cardbody'>

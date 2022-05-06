@@ -1,17 +1,20 @@
 
+import './newspage.css';
 const Newspage = (props) => {
     return (
-        <div>
-            <img src={props.img} />
-            <div>
+        <div className="Newspage">
+            <img className="Newspageimg" src={props.img} />
+            <div >
                 <h2>{props.title}</h2>
+                <hr />
             </div>
-            <div>
+            <div className="Newssubtitle">
                 {props.subtitle}
             </div>
-            <div>
+            <div className="Newsarticle">
                 {props.fullarticle}
             </div>
+            <hr />
 
         </div>
     );

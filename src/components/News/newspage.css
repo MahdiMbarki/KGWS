@@ -1,0 +1,39 @@
+.Newspage {
+    margin: 5%;
+    padding: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+.Newspageimg {
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5%;
+    opacity: 0.6
+}
+
+.Newspageimg:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.Newssubtitle {
+    font: optional;
+    font-size: large;
+    font-weight: 700;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 100px;
+}
+
+.Newsarticle {
+    word-spacing: 5px;
+    font-size: large;
+    line-height: 2;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+}

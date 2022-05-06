@@ -13,14 +13,14 @@ function Whyjoin() {
 
 
 
-    <div className='BsectionContainer' id="whyjoin">
+    <div id="whyjoin" >
       <div className="nine">
         <h1>Pourquoi Nous Choisir<span>Differentes Branches</span></h1>
       </div>
 
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row className='whyjoincontainer'>
-          <Col sm={3}>
+          <Col >
             <Nav variant="pills" className="flex-column">
               <h1 className='navTitle'> Branche d'activité kompar</h1>
               <Nav.Item>
@@ -38,7 +38,7 @@ function Whyjoin() {
             </Nav>
           </Col>
 
-          <Col sm={6} className='ImgTxtContainer'>
+          <Col className='ImgTxtContainer'>
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <img className='whyjoinimg' src={require('../../images/whyChoose/Energy.png')} alt="kompar" />
