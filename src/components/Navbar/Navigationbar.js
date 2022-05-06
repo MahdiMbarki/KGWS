@@ -28,14 +28,19 @@ const Navigationbar = (props) => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
+                            {props.data ? props.data.pages.map((d, i) => (
+                                <LinkContainer to={d.to}>
+                                    <Nav.Link key={`${d}-${i}`} className='menu'  >{d.pagename}</Nav.Link>
+                                </LinkContainer>
+
+                            )) : "loading..."}
                             {props.data
                                 ? props.data.navs.map((d, i) => (
                                     <Nav.Link className='menu' href={d.href} key={`${d}-${i}`}>{d.pagename}  </Nav.Link>
                                 ))
                                 : "loading"}
-                            <LinkContainer to="/Partenariat">
-                                <Nav.Link className='menu'  >Partenariat</Nav.Link>
-                            </LinkContainer>
+
+
 
 
                         </Nav>

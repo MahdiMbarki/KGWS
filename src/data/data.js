@@ -1,6 +1,18 @@
 export const data = {
     "navbar": {
         "logo": require("../images/kompar.jpg"),
+        "pages": [
+            {
+                "pagename":"Home",
+                "to":"/"
+
+            },
+            {
+                "pagename":"Partenariat",
+                "to":"/Partenariat"
+
+            }
+        ],
         "navs": [
             {
                 "pagename": "Nous connaitre",
@@ -15,9 +27,14 @@ export const data = {
                 "href": "/#Services"
             },
             {
+                "pagename": "News",
+                "href": "/#News"
+            },
+            {
                 "pagename": "Contact",
                 "href": "/#Contact"
             }
+
 
         ]
     },
