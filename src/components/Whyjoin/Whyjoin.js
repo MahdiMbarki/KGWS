@@ -1,9 +1,6 @@
 import './Whyjoin.css';
 import { Row, Col, Tab, Nav } from 'react-bootstrap';
-import { ImConnection } from "react-icons/im";
-import { MdOutlineHealthAndSafety } from "react-icons/md";
-import { FaChartLine } from "react-icons/fa";
-import { IoIosFlash } from "react-icons/io";
+import React from 'react';
 import * as Iconsim from "react-icons/im";
 import * as Iconsmd from "react-icons/md";
 import * as Iconsfa from "react-icons/fa";
@@ -42,14 +39,14 @@ function Whyjoin() {
         <h1>Pourquoi Nous Choisir<span>Differentes Branches</span></h1>
       </div>
 
-      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Tab.Container id="left-tabs-example" defaultActiveKey={0}>
         <Row className='whyjoincontainer'>
           <Col >
             <Nav variant="pills" className="flex-column">
               <h1 className='navTitle'> {data.branches.title}</h1>
               {data ? data.branches.content.map((d, i) => (
                 <Nav.Item key={`${d}-${i}`}>
-                  <Nav.Link eventKey={i}><span className='menuIcon' > <IoIosFlash /> </span> {d.button}  </Nav.Link>
+                  <Nav.Link eventKey={i}><span className='menuIcon' > {React.createElement(iconarr[i])} </span> {d.button}  </Nav.Link>
                 </Nav.Item>
 
               )) : "Loading..."}

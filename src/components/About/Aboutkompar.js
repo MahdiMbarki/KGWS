@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { data } from '../Common'
+import {LinkContainer}from 'react-router-bootstrap';
 function Aboutkompar() {
     return (
         <div className="kompar">
@@ -20,7 +21,9 @@ function Aboutkompar() {
                             <div className='about'>
                                 <h3>{data.about.title}</h3>
                                 <p>{data.about.paragraph}</p>
+                                <LinkContainer to='/About' >
                                 <Button href={data.about.href}>{data.about.button}</Button>
+                                </LinkContainer>
 
                             </div>
 

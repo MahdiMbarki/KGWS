@@ -1,6 +1,5 @@
 import HeaderSlider from "./Headerslider/HeaderSlider";
 import Navigationbar from './Navbar/Navigationbar';
-import OffcanvasNavbar from './Navbar/OffcanvasNavbar';
 import Footer from './Footer/Footer';
 import Partners from './Partners/Partners'
 import Kompar from "./Kompar/Kompar";
@@ -20,8 +19,14 @@ import FormModal from './Modal/FormModal.js';
 import { data } from '../data/data.js';
 import Newspage from "./News/Newspage";
 import Services from "./Services/Services";
+import Aboutpage from "./Pages/Aboutpage";
+import Aboutcard from "./About/Aboutcard";
+import Icontext from "./Icontext/Icontext";
 export {
+    Icontext,
+    Aboutcard,
     data,
+    Aboutpage,
     FormModal,
     BackToTopButton,
     Whyjoin,
@@ -38,7 +43,6 @@ export {
     Kompar,
     HeaderSlider,
     Navigationbar,
-    OffcanvasNavbar,
     Footer,
     Partners,
     Newspage,

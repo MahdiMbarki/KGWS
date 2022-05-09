@@ -13,9 +13,7 @@ function Home() {
     return (
 
         <div className='Homepage'>
-
             <div ref={topContainer} />
-
             <HeaderSlider />
             <About />
             <Whyjoin />

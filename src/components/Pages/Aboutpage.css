@@ -1,0 +1,47 @@
+.display-4 {
+    font-size: 73px;
+}
+
+
+
+.Aboutpagetext p {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    border-left: 4px solid yellow;
+    padding-left: 10px;
+}
+
+/* chiffres clés section */
+
+.containerbottom ul {
+
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.containerbottom li {
+    display: inline-block;
+    margin: auto;
+    width: 260px;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.icontext {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.difference {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: stretch;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

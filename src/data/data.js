@@ -11,13 +11,13 @@ export const data = {
                 "pagename": "Partenariat",
                 "to": "/Partenariat"
 
+            },
+            {
+                "pagename": "About",
+                "to": "/Aboutpage"
             }
         ],
         "navs": [
-            {
-                "pagename": "Nous connaitre",
-                "href": "/#About"
-            },
             {
                 "pagename": "Pourquoi Nous Choisir",
                 "href": "/#whyjoin"
@@ -232,5 +232,38 @@ export const data = {
         }
 
 
+    },
+    "Aboutpage":
+    {
+        "title": "CE QUI NOUS différencie...",
+
+        "card":
+            [
+                {
+                    "icon": 'CgPerformance',
+                    "title": "SERVICE SUR MESURE ",
+                    "text": "Nous mettons en place un service sur mesure, personna¬lisé et réactif. ",
+
+                },
+                {
+                    "icon": 'BiTimer',
+                    "title": "PERFORMANCE ",
+                    "text": "Nous vous faisons gagner du temps et de l'efficacité. ",
+                },
+                {
+                    "icon": "GiOnTarget",
+                    "title": "CULTURE DU RÉSULTAT",
+                    "text": `Nous sommes orientés résultat et performance. Nous mettons tout en œuvre afin d’atteindre les objectifs fixés avec nos clients.  `,
+                }
+            ]
+
+    },
+    "footer": {
+        "contact": [
+            ["Adresse", "59 Rue de Ponthieu, 75008 PARIS"],
+            ["Telephone", "09 70189 400"],
+            ["E-mail", "contact@kompar-group.fr "]
+        ],
+        "logo": require('../images/Logo.png')
     }
 }

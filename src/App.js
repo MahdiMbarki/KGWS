@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { data, Home, BackToTopButton, Partenariat, Navigationbar, OffcanvasNavbar, Footer, Newspage } from './components/Common'
+import { Aboutpage, data, Home, BackToTopButton, Partenariat, Navigationbar, Footer, Newspage } from './components/Common'
 
 function App() {
 
@@ -15,14 +15,14 @@ function App() {
         <div className="App">
             <Router>
                 <Navigationbar data={landingPageData.navbar} />
-                <OffcanvasNavbar />
+
                 <Routes >
 
                     <Route exact path='/' element={<Home />} />
-
                     <Route path='/Partenariat' element={<Partenariat />} />
+                    <Route path='/Aboutpage' element={<Aboutpage />} />
                     {data ? data.news.map((d, i) => (
-                        <Route path={d.path} element={<Newspage img={d.image} title={d.title} subtitle={d.subtitle} fullarticle={d.fullarticle} />} />
+                        <Route key={i} path={d.path} element={<Newspage img={d.image} title={d.title} subtitle={d.subtitle} fullarticle={d.fullarticle} />} />
                     )) : "loading..."}
 
                 </Routes>

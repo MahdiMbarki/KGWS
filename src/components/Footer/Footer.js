@@ -5,7 +5,7 @@ import { BsFacebook, BsLinkedin, } from 'react-icons/bs';
 import { IoIosSend } from 'react-icons/io';
 import { LinkContainer } from "react-router-bootstrap";
 import { FormModal } from '../Common';
-
+import { data } from '../Common'
 import './Footer.css';
 
 
@@ -90,6 +90,26 @@ function Footer() {
                 </section>
 
             </section>
+            <hr />
+            <div >
+                <section id="contactinfo">
+                    {data ? data.footer.contact.map((d, i) => (
+                        <div key={i} id="contactvia">
+                            <label>
+                                {d[0]}
+                            </label>
+                            <p>
+                                {d[1]}
+                            </p>
+
+                        </div>
+
+                    )) : "loading..."}
+
+                </section>
+
+            </div>
+
             <div>
                 <section className="foootercr">
                     <div>
@@ -100,6 +120,7 @@ function Footer() {
                     <p> © Copyright 2021 - KOMPAR GROUP. All rights reserved.</p>
                 </section>
             </div>
+
 
             <FormModal
                 show={modalShow}

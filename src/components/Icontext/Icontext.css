@@ -1,0 +1,32 @@
+.sideicon {
+    padding: 20px;
+    text-align: right;
+    margin: 3%;
+    color: rgb(30, 103, 125);
+}
+
+.icontext {
+
+    text-align: justify;
+    border-left: 2px solid grey;
+    color: rgba(0, 0, 0, 0.649);
+    padding-left: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: 300;
+}
+
+.icontextcontainer {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-template-rows: 100px;
+    padding: 20px;
+
+
+
+
+}
+
+.icontextgroup {
+    margin-bottom: 50px;
+}
