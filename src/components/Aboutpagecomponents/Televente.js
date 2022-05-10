@@ -4,7 +4,7 @@ import { Icontext } from "../Common"
 
 function Televente() {
     return (
-        <div>
+        <div className="televente">
             <div class="blog-head text-center">
                 <h2>LA TÉLÉVENTE</h2>
                 <h6>Augmentez vos part de marché gràce a notre force commercial ! </h6>

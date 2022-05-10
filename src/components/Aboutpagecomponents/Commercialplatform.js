@@ -2,7 +2,7 @@ import { Teleprospection, Televente } from "../Common"
 import img1 from '../../images/Aboutpage/platformecommerciale.png'
 function Commercialplatform() {
     return (
-        <div>
+        <div className="cp">
             <div className="row">
                 <div className="col-lg-6">
                     <img className="w-100 shadow" src={img1} alt='kompar' />

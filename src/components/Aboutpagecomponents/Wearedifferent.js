@@ -22,7 +22,7 @@ function Wearedifferent() {
     }
 
     return (
-        <div>
+        <div className='wearedifferent'>
             <div className="blog-head text-center">
                 <h2>CE QUI NOUS DIFFERENCIE</h2>
                 <h6></h6>

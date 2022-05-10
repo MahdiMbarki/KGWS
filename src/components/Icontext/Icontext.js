@@ -8,7 +8,9 @@ function Icontext(props) {
                 {props.icon}
             </div>
             <div className="icontext">
-                {props.text}
+                <p>
+                    {props.text}
+                </p>
             </div>
 
         </div>

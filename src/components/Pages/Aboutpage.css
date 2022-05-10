@@ -96,3 +96,39 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.timeline {
+
+    background-image: linear-gradient(to right, rgba(30, 75, 115, 0.7), rgba(30, 75, 115, .7)), url("https://wallpaperaccess.com/full/656853.png");
+    background-attachment: fixed;
+    background-color: rgba(0, 255, 255, 0.581);
+    background-position: center, center;
+    /* Center the image */
+    background-repeat: no-repeat, norepeat;
+    /* Do not repeat the image */
+    background-size: cover, cover;
+    margin-bottom: 10%;
+}
+
+div.col-md-6:hover {
+
+    transform: scale(1.05);
+}
+
+.wearedifferent {
+    padding: 100px;
+}
+
+.containerbottom>ul>li {
+    animation: knanimation 3s;
+}
+
+@keyframes knanimation {
+    from {
+        transform: translateY(-500px);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}

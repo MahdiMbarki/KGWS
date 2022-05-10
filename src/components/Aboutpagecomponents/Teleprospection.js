@@ -5,7 +5,7 @@ import { Icontext } from "../Common"
 
 function Teleprospection() {
     return (
-        <div>
+        <div className="teleprospection">
             <div class="blog-head text-center">
                 <h2>LA TÉLÉPROSPECTION</h2>
                 <h6>La téléprospection, pour vous recentrer sur votre cœur de métier !</h6>
