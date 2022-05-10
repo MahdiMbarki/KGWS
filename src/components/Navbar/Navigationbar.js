@@ -26,7 +26,7 @@ const Navigationbar = (props) => {
 
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto">
                             {props.data ? props.data.pages.map((d, i) => (
                                 <LinkContainer key={`${d}-${i}`} to={d.to}>
@@ -55,7 +55,7 @@ const Navigationbar = (props) => {
                 </Container>
             </Navbar>
 
-        </div>
+        </div >
     )
 }
 

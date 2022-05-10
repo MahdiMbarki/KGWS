@@ -1,8 +1,59 @@
+.Aboutheader {
+    background-image: url(../../images/Aboutpage/overlay.png);
+    background-position: center;
+    background-size: cover;
+    height: 485px;
+    position: relative;
+    text-align: center;
+}
+
+.Aboutheader h5 {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-lg-6 {
+    padding-left: 10%;
+}
+
 .display-4 {
     font-size: 73px;
 }
 
+.blog-head {
+    margin: 150px 0px;
 
+}
+
+.blog-head h6 {
+    color: #f05907;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.blog-head h6:after,
+.blog-head h6:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #f05907;
+    top: 50%;
+}
+
+.blog-head h6:after {
+    right: 120%;
+}
+
+.blog-head h6:before {
+    left: 120%;
+}
 
 .Aboutpagetext p {
     margin: auto;

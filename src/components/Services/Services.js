@@ -39,9 +39,10 @@ function Services() {
     return (
         <div id='Services'>
 
-            <div className="nine">
-                <h1>Nos services<span> Développez des relations plus solides avec vos clients</span></h1>
-            </div>
+            <div class="blog-head text-center">
+            <h2>Nos services</h2>
+            <h6>Développez des relations plus solides avec vos clients</h6>
+          </div>
             <div className='servicescards'>
                 {data ? data.services.map((d, i) => (
 

@@ -35,10 +35,11 @@ function Whyjoin() {
 
 
     <div id="whyjoin" >
-      <div className="nine">
-        <h1>Pourquoi Nous Choisir<span>Differentes Branches</span></h1>
-      </div>
-
+     
+      <div class="blog-head text-center">
+            <h2>Pourquoi Nous Choisir</h2>
+            <h6>Differentes Branches</h6>
+          </div>
       <Tab.Container id="left-tabs-example" defaultActiveKey={0}>
         <Row className='whyjoincontainer'>
           <Col >

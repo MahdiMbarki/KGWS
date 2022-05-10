@@ -46,8 +46,9 @@ const Mailer = () => {
   }
   return (
     <div className='forms' id='Contact' >
-      <div class="nine">
-        <h1>Contactez-nous<span>Contactez-Nous</span></h1>
+      <div className="blog-head text-center">
+        <h2>Contactez-nous</h2>
+        <h6>Remplir La Formulaire Ci-Dessous Pour Nous Envoyez un E-mail</h6>
       </div>
       <Form onSubmit={sendmail}>
 
@@ -84,7 +85,7 @@ const Mailer = () => {
 
         <Row>
           <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea*</Form.Label>
+            <Form.Label>Your Message</Form.Label>
             <Form.Control as="textarea" rows={3} onChange={handleMessage} />
           </Form.Group>
         </Row>

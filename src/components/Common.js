@@ -20,11 +20,21 @@ import { data } from '../data/data.js';
 import Newspage from "./News/Newspage";
 import Services from "./Services/Services";
 import Aboutpage from "./Pages/Aboutpage";
-import Aboutcard from "./About/Aboutcard";
 import Icontext from "./Icontext/Icontext";
+import Keynumbers from "./Aboutpagecomponents/Keynumbers"
+import Televente from "./Aboutpagecomponents/Televente";
+import Teleprospection from "./Aboutpagecomponents/Teleprospection";
+import Commercialplatform from "./Aboutpagecomponents/Commercialplatform";
+import Howwefunction from "./Aboutpagecomponents/Howwefunction";
+import Wearedifferent from "./Aboutpagecomponents/Wearedifferent"
 export {
+    Wearedifferent,
+    Howwefunction,
+    Teleprospection,
+    Televente,
+    Commercialplatform,
     Icontext,
-    Aboutcard,
+    Keynumbers,
     data,
     Aboutpage,
     FormModal,

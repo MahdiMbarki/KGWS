@@ -58,10 +58,8 @@ export const data = {
     "about": {
         "image": require("../images/page-header.jpg"),
         "title": "KOMPAR GROUPE",
-        "paragraph": `Est expert dans l’accompagnement des particuliers et des entreprisespour la réduction des factures d’énergies, de télécommunication,et l’optimisation des frais généraux.        
-        Partenaire des plus grands fournisseurs français, KOMPAR se positionne comme le tiers de confiance privilégié de ses clients et leur apporte la solution la plus adaptée à leurs besoins.
-        Présent sur toute la France et à l’étranger, nos équipes sont à l’écoute de nos clients professionnels.
-        Nous offrons à nos clients, un accompagnement Personnalisé, un partenariat gagnant/gagnant, une transparence totale.`,
+        "paragraph": `Pour assurer un service de qualité auprès de sa clientèle d'envergure internationale, KOMPAR s'est doté d'équipement ultra moderne à la pointe de la technologie, un CRM d’appels et de gestion certifié IS09001, de ressources humaines qualifiées et des méthodes de marketing bien étudiées. 
+        Le Groupe KOMPAR situé a Paris, est expert dans l’accompagnement des entreprises à travers différentes offres d’Outsourcing. Parte¬naires des plus grands fournisseurs français (Energie,Telecom, Assurances, Credit...), KOMPAR se positionne comme le tiers de confiance privilégié de ses clients et leur apporte la solution la plus adaptée à leurs besoins.`,
         "button": "En Savoir Plus",
         "href": ""
     },

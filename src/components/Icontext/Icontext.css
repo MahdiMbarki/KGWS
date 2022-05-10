@@ -2,14 +2,14 @@
     padding: 20px;
     text-align: right;
     margin: 3%;
-    color: rgb(30, 103, 125);
+    color: rgb(41, 119, 209);
 }
 
 .icontext {
 
     text-align: justify;
     border-left: 2px solid grey;
-    color: rgba(0, 0, 0, 0.649);
+    color: rgb(81, 81, 81);
     padding-left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
@@ -19,7 +19,7 @@
 .icontextcontainer {
     display: grid;
     grid-template-columns: 20% 60%;
-    grid-template-rows: 100px;
+    grid-template-rows: auto;
     padding: 20px;
 
 

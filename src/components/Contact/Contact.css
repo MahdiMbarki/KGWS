@@ -1,7 +1,6 @@
 .forms {
     padding: 50px 12px;
-    height: 700px;
-    margin-bottom: 500px;
+   
     background-size: cover;
     background-position: center;
 
@@ -19,8 +18,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 700px;
-
         background-position: center;
         background-size: cover;
         background-attachment: fixed;

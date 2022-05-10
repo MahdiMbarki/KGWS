@@ -29,6 +29,9 @@ function Footer() {
             });
         setModalShow(true);
     }
+    function focuser() {
+        document.getElementById("nlinput").focus();
+    }
     return (
         <footer>
             <section className="footer">
@@ -72,12 +75,12 @@ function Footer() {
                 <section className="footer-info">
                     <ul>
                         <h6> Inscription à notre newsletter</h6>
-                        <li>
+                        <li onClick={focuser}>
                             <p>Recevez les dernières nouvelles sur le marché d'energie en france</p>
                         </li>
                         <li>
-                            <input className="nli" type='email' onChange={(e) =>
-                                setmail(e.target.value)} placeholder='email adresse' />
+                            <input id="nlinput" className="nli" type='email' onChange={(e) =>
+                                setmail(e.target.value)} placeholder='  email adresse' />
                             <button className="nlb" onClick={subscribe}><IoIosSend /></button>
                         </li>
                         <a target="_blank" href='https://linkedin.com'>
@@ -88,27 +91,30 @@ function Footer() {
                     </ul>
 
                 </section>
+                <section className="footerinfo">
+                    <div >
+                        <section id="contactinfo">
+                            {data ? data.footer.contact.map((d, i) => (
+                                <div key={i} id="contactvia">
+                                    <label>
+                                        {d[0]}
+                                    </label>
+                                    <p>
+                                        {d[1]}
+                                    </p>
 
-            </section>
-            <hr />
-            <div >
-                <section id="contactinfo">
-                    {data ? data.footer.contact.map((d, i) => (
-                        <div key={i} id="contactvia">
-                            <label>
-                                {d[0]}
-                            </label>
-                            <p>
-                                {d[1]}
-                            </p>
+                                </div>
 
-                        </div>
+                            )) : "loading..."}
 
-                    )) : "loading..."}
+                        </section>
 
+                    </div>
                 </section>
 
-            </div>
+            </section>
+
+
 
             <div>
                 <section className="foootercr">

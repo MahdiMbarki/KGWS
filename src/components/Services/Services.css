@@ -1,6 +1,5 @@
 h2 {
     text-align: center;
-    margin: 50PX;
 }
 
 #Services {
@@ -13,7 +12,7 @@ h2 {
     justify-content: center;
     flex-flow: row wrap;
     align-items: stretch;
-    gap: 30px 100px;
+    gap: 30px ;
     margin-left: 10%;
     margin-right: 10%;
 }
