@@ -1,12 +1,9 @@
 import { Modal, Button } from "react-bootstrap";
-import { useState } from "react";
 
 const FormModal = (props) => {
 
-    const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+   
     return (
 
         <div >

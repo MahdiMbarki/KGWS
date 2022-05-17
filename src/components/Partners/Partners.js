@@ -7,9 +7,9 @@ function Partners(props) {
     const options = {
         loop: 'true',
         autoplay: 'true',
-        autoplayTimeout: '1200',
+        margin:50,
+        autoplayTimeout: '2000',
         items: '6',
-        margin: 50,
         dotsClass: 'dc',
         autoplayHoverPause: 'true',
         animationout: 'true',
@@ -21,20 +21,20 @@ function Partners(props) {
                 slideBy: 1,
             },
             400: {
-                items: 1,
+                items: 3,
                 slideBy: 1,
             },
             600: {
                 items: 2,
-                slideBy: 1,
+                slideBy: 2,
             },
             700: {
                 items: 3,
                 slideBy: 1,
             },
             1000: {
-                slideBy: 1,
-                items: 5,
+                slideBy: 2,
+                items: 6,
 
             }
         }

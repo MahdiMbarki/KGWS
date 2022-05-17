@@ -64,7 +64,7 @@ export const data = {
         "href": ""
     },
     "branches": {
-        "title": "Branche d'activité kompar",
+        "title": "KOMPAR GROUP",
         "content":
             [
                 {
@@ -146,7 +146,9 @@ export const data = {
             "path": "/news/a",
             "image": require('../images/news/n1.jpg'),
             "title": 'DÉMÉNAGEMENT-CONTRAT D`ÉLECTRICITÉ',
-            "subtitle": "Changer de logement est l`occasion rêvée de remettre en question ses contrats d`énergie et de choisir un fournisseur moins cher. les particuliers peuvent choisir leur fournisseur librement, et résilier à tout moment. Mais, quel est le fournisseur le moins cher ? Et surtout : comment trouver le meilleur fournisseur d`énergie lorsque l`on déménage ?",
+            "subtitle": "Changer de logement est l`occasion  de remettre en question ses contrats d`énergie et de choisir un fournisseur moins cher. ",
+            "author": "ADMIN",
+            "date": "6 Apr, 2021",
             "fullarticle": `
             What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -162,14 +164,16 @@ export const data = {
             
             Where can I get some?
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-            "button": "Compare les fournisseur",
+            "button": "Lire l'article →",
 
         },
         {
             "path": "/news/b",
             "image": require('../images/news/n2.jpg'),
             "title": 'L`ÉLECTRICITÉ À PRIX COUTANT',
-            "subtitle": "En 2023, tous les fournisseurs de plus de 200 000 clients devront proposer une offre d`électricité à prix de marché. Son autre nom ? Le « tarif dynamique ». C`est un prix qui varie chaque heure, chaque jour. Il est déterminé par l`offre et la demande . Voici pourquoi, comme l`Europe, nous croyons dur comme fer en cette tarification d`avenir.",
+            "subtitle": "En 2023, tous les fournisseurs de plus de 200 000 clients devront proposer une offre d`électricité à prix de marché.",
+            "author": "ADMIN",
+            "date": "6 Apr, 2021",
             "fullarticle": `
             What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -185,14 +189,16 @@ export const data = {
             
             Where can I get some?
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-            "button": "Découvrir Plus D'information",
+            "button": "Lire l'article →",
 
         },
         {
             "path": "/news/c",
             "image": require('../images/news/n3.jpg'),
             "title": 'COMPARATEUR DE PRIX AVANTAGES',
-            "subtitle": "simple et rapide , Notre comparateur de prix ne présente que des avantages dans tous les secteurs d`activité : commerce , industrie, artisanat, agriculture, professions libérales réglementées…. Il permet de réaliser d`importantes économies tout en étant beaucoup plus précis qu`un moteur de recherche classique.",
+            "subtitle": "simple et rapide , Notre comparateur de prix ne présente que des avantages dans tous les secteurs d`activité ",
+            "author": "ADMIN",
+            "date": "6 Apr, 2021",
             "fullarticle": `
             What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -208,7 +214,7 @@ export const data = {
             
             Where can I get some?
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-            "button": "Optimiser Ma Consommation"
+            "button": "Lire l'article →"
         }
     ],
     "page2": {

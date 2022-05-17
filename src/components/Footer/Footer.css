@@ -1,18 +1,16 @@
 .footer {
-    padding: 30px 100px 50px 100px;
+    padding: 30px 50px 50px 50px;
     display: flex;
     justify-content: space-between;
     bottom: 0;
     text-decoration: none;
-
-    margin-top: 200px;
     position: relative;
     left: 0;
     bottom: 0;
 }
 
 footer {
-    background: rgb(53, 53, 53);
+    background: #18377D;
 }
 
 .footer ul {
@@ -24,9 +22,9 @@ footer {
 
 
 li:hover {
-    color: rgb(0, 0, 0);
+    color: #fff;
     cursor: pointer;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .footer h6 {
@@ -104,8 +102,8 @@ li>a {
 }
 
 li>a:hover {
-    font-weight: 800;
-    color: black;
+    font-weight: 600;
+    color: #fff;
 
 }
 

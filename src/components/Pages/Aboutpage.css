@@ -22,40 +22,29 @@
 }
 
 .display-4 {
-    font-size: 73px;
+    font-size: 43px;
+    text-align: start;
+    margin-top: 30px;
 }
 
 .blog-head {
-    margin: 150px 0px;
+    margin: 70px 0px;
 
 }
 
 .blog-head h6 {
-    color: #f05907;
+    color: #03A7E9;
     position: relative;
     display: inline-block;
     text-transform: capitalize;
 }
 
-.blog-head h6:after,
-.blog-head h6:before {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 3px;
-    background: #f05907;
-    top: 50%;
-}
 
-.blog-head h6:after {
-    right: 120%;
-}
-
-.blog-head h6:before {
-    left: 120%;
-}
 
 .Aboutpagetext p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: small;
     margin: auto;
     align-items: center;
     width: 50%;
@@ -115,20 +104,92 @@ div.col-md-6:hover {
     transform: scale(1.05);
 }
 
-.wearedifferent {
-    padding: 100px;
+.blog {
+    display: grid;
+    margin: 5%;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+
 }
 
-.containerbottom>ul>li {
-    animation: knanimation 3s;
+.popularposts {
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    padding: 5px;
+    align-content: center;
+
+
+
 }
 
-@keyframes knanimation {
-    from {
-        transform: translateY(-500px);
+.popularposts h3 {
+    margin: 5%;
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.popularposts>div>div>p {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.popularposts>div>div>a {
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.popularposts>div>div>a:hover {
+    color: black;
+    font-weight: 800;
+
+}
+
+.post {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 35% 60%;
+
+}
+
+.sidebar img {
+    width: 90%;
+    height: 80%;
+}
+
+.Newspageimg {
+    width: 90%;
+    height: 500px;
+
+}
+
+.Newssubtitle {
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.Newsarticle {
+    font-weight: 400;
+    color: #727272;
+    font-size: 14px;
+    text-align: justify;
+    width: 90%
+}
+
+@media only screen and (max-width: 900px) {
+    .sidebar {
+        margin-left: 0;
     }
 
-    to {
-        transform: translate(0);
+    .blog {
+        display: flex;
+        flex-direction: column;
     }
 }

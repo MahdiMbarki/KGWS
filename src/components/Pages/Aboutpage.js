@@ -2,8 +2,9 @@ import './Aboutpage.css'
 import * as Iconscg from 'react-icons/cg';
 import * as Iconsbi from 'react-icons/bi';
 import * as Iconsgi from 'react-icons/gi';
-import React, { useEffect, useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Wearedifferent, Keynumbers, Commercialplatform, Howwefunction, data } from "../Common"
+
 
 function Aboutpage() {
 

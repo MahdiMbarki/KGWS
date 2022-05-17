@@ -23,9 +23,11 @@ function Aboutkompar() {
                             <div className='about'>
                                 <h3>{data.about.title}</h3>
                                 <p>{data.about.paragraph}</p>
+                                <div>
                                 <LinkContainer to='/Aboutpage' >
-                                    <Button href={data.about.href}>{data.about.button}</Button>
+                                    <Button variant='outline-primary' href={data.about.href}>{data.about.button}</Button>
                                 </LinkContainer>
+                                </div>
 
                             </div>
 

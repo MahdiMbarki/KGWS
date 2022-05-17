@@ -13,9 +13,9 @@
 }
 
 .whyjoinText {
-   font-size: 16px;
-   text-align: center;
-   color: #2F2F2F;
+   font-size: 18px;
+   text-align: justify;
+   color: #67788a;
    padding: 10px 50px;
 }
 
@@ -31,7 +31,7 @@
 
 .nav-pills .nav-link {
    margin-bottom: 22px;
-   color: #5977a5;
+   color: #18377D;
    cursor: pointer;
    margin-left: 20px;
    margin-right: 40px;
@@ -41,8 +41,8 @@
 }
 
 .nav-pills .nav-link:not(.nav-link.active):hover {
-   background-color: #0084ff4f;
-   ;
+   background-color:#03a8e980;
+   
 }
 
 .nav-pills {
@@ -69,7 +69,7 @@ h1:not(.navTitle) {
 .menuIcon {
 
    color: white;
-   background-color: #0084ff;
+   background-color: #03A7E9;
    width: 40px;
    height: 40px;
    border-radius: 50%;
@@ -80,19 +80,40 @@ h1:not(.navTitle) {
    margin-right: 20px;
 }
 
-/*@media screen and (MAX-width:1000px){
- .BsectionContainer{
-  display: block;
+@media screen and (MAX-width:1000px){
+ .whyjoinText{
+    padding: 9px;
  }
-
- }.menuIcon:hover {
-   background: white;
+ .nav-pills .nav-link{
+    font-size: 15px;
+ }
+ .row{
+    --bs-gutter-x:0;
+ }
+h1{
+   margin: 7px;
+   font-size: 30px;
 }
- .nav-pills .nav-link.active,
-.menuIcon .show>.menuIcon {
-   */
+
+h2{
+   font-size: 30px;
+}
+ 
+}
+ 
 
 .nav-pills .nav-link.active>.menuIcon {
-   background: #174d80;
+   background: #18377D;
    color: rgb(255, 255, 255);
 }
+
+.nav-pills .nav-link.active{
+   background-color: #03A7E9;
+}
+
+.nav-pills .nav-link.active::after{
+   content: "➣";
+   float: right;
+font-size: 20px;
+margin-top: 7px;
+font-weight: 700;}

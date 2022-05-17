@@ -35,7 +35,6 @@ function Whyjoin() {
 
 
     <div id="whyjoin" >
-     
       <div class="blog-head text-center">
             <h2>Pourquoi Nous Choisir</h2>
             <h6>Differentes Branches</h6>
@@ -44,7 +43,10 @@ function Whyjoin() {
         <Row className='whyjoincontainer'>
           <Col >
             <Nav variant="pills" className="flex-column">
-              <h1 className='navTitle'> {data.branches.title}</h1>
+              <div  className='pillsTitle'>
+              <h3> {data.branches.title}</h3>
+              <h6>Nos branche d'activité</h6>
+              </div>
               {data ? data.branches.content.map((d, i) => (
                 <Nav.Item key={`${d}-${i}`}>
                   <Nav.Link eventKey={i}><span className='menuIcon' > {React.createElement(iconarr[i])} </span> {d.button}  </Nav.Link>

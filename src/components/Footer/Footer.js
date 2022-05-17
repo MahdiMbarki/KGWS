@@ -39,8 +39,8 @@ function Footer() {
                     <ul>
                         <h6> kompar</h6>
                         <li><a href="/#About" >Qui sommes nous</a></li>
-                        <li><a href="">Mentions légales</a></li>
-                        <li><a href="">Terms and Condition</a></li>
+                        <li><a href="/">Mentions légales</a></li>
+                        <li><a href="/">Terms and Condition</a></li>
                         <li><a href='/#News'>Actualités et article</a></li>
 
                     </ul>
@@ -120,7 +120,7 @@ function Footer() {
                 <section className="foootercr">
                     <div>
                         <LinkContainer to="/">
-                            <img alt="" src={require('../../images/Logo.png')} id="logofooter" />
+                            <img alt="" src={require('../../images/kompar.jpg')} id="logofooter" />
                         </LinkContainer>
                     </div>
                     <p> © Copyright 2021 - KOMPAR GROUP. All rights reserved.</p>

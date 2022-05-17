@@ -1,6 +1,7 @@
 import { data, HeaderSlider, Services, News, About, Contact, Whyjoin, Partners } from '../Common';
 //import './Body.css';
 import React, { useEffect, useRef } from "react";
+import CookieConsent from 'react-cookie-consent';
 
 function Home() {
 
@@ -21,6 +22,8 @@ function Home() {
             <Services />
             <News />
             <Contact />
+            <CookieConsent debug={true}>this site use cookies</CookieConsent>
+
         </div>
     );
 }

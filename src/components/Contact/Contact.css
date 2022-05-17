@@ -1,6 +1,6 @@
 .forms {
-    padding: 50px 12px;
-   
+    padding: 3px 12px;
+   background-color: #f8f8f8;
     background-size: cover;
     background-position: center;
 
@@ -11,8 +11,7 @@
 
     .forms {
 
-        padding: 50px 390px;
-
+        padding: 3px 390px;
         width: 100%;
         display: flex;
         flex-direction: column;

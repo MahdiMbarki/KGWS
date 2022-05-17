@@ -7,17 +7,9 @@
   display: flex;
   justify-content: center;
   margin: 10px;
-
-
+  border: none;
 }
 
-
-
-
-.item-News {
-
-  margin: 20px;
-}
 
 .News {
   display: flex;
@@ -42,20 +34,17 @@
 
 
 .newsbutton {
-  padding: 20px;
-  background: white;
-  color: black;
+  background: transparent;
+  color: #18377D;
   font-weight: 600;
-  border-color: black;
-  border-radius: 20px;
+  border: none;
+ margin-left: -10px;
+ 
 
 }
 
 .newsbutton:hover {
-  color: white;
-  background: black;
-  font-weight: 800;
-  box-shadow: 4px 4px 4px grey;
-  border-color: black;
+  color: #03A7E9;
+  background: #fff;
 
 }

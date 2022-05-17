@@ -6,19 +6,18 @@
 
 .card-solution {
     border: none;
-   
     text-align: center;
     padding-top: 30PX;
     width: 300px;
     height: 250px;
     font-size: 9px;
-
-    color: #5977a5;
+    color: #18377D;
     cursor: pointer;
     overflow: hidden;
     -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #f8f8f8;
 }
 
 .card-solution:hover {
@@ -28,14 +27,15 @@
     -o-transform: translate(0, -6px);
     transform: translate(0, -6px);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    color: #0084FF;
+    color: #03A7E9;
 }
 
 .cardtext {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
-    color: black;
+    color: #67788a;
 }
+
 
 @media screen and (max-width:1300px) {
     .card {

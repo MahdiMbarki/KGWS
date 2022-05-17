@@ -1,5 +1,5 @@
 import React from 'react';
-import Slide from "react-reveal/Slide"
+
 
 function Howwefunction() {
     return (
@@ -23,7 +23,7 @@ function Howwefunction() {
 
 
                                         </div>
-                                        <Slide right>
+                                    
                                             <div className="col-md-6">
                                                 <div className="timeline-box">
                                                     <div className="timeline-icon">
@@ -35,7 +35,7 @@ function Howwefunction() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </Slide>
+                                        
                                     </div>
 
 
@@ -52,7 +52,7 @@ function Howwefunction() {
 
 
                                     <div className="row timeline-left">
-                                        <Slide left>
+                                        
                                             <div className="col-md-6">
                                                 <div className="timeline-box">
                                                     <div className="timeline-icon d-md-none d-block">
@@ -67,7 +67,7 @@ function Howwefunction() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </Slide>
+                                    
                                     </div>
 
                                     <div className="timeline-end">
@@ -77,7 +77,7 @@ function Howwefunction() {
                                     <div className="row timeline-right">
                                         <div className="col-md-6">
                                         </div>
-                                        <Slide right>
+                                       
                                             <div className="col-md-6">
                                                 <div className="timeline-box">
                                                     <div className="timeline-icon">
@@ -89,14 +89,14 @@ function Howwefunction() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </Slide>
+                                       
                                     </div>
                                     <div className="timeline-end">
                                         <p>4</p>
                                     </div>
 
                                     <div className="row timeline-left">
-                                        < Slide left>
+                                      
                                             <div className="col-md-6">
                                                 <div className="timeline-box">
                                                     <div className="timeline-icon d-md-none d-block">
@@ -111,7 +111,7 @@ function Howwefunction() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </Slide>
+                    
                                         <div className="col-md-6 d-md-block d-none">
                                         </div>
                                     </div>
